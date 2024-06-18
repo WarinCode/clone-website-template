@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+img[alt="plane"]{
+    /* https://9elements.github.io/fancy-border-radius/#69.59.47.58--400.400 */
+    border-radius: 59% 41% 42% 58% / 69% 47% 53% 31% ;
+}
